@@ -26,6 +26,7 @@
 		D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43A285DF8CE00830798 /* MetalView.swift */; };
 		D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */; };
 		D3E5F441285E004400830798 /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* ARShootingView.swift */; };
+		D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F442285E84C400830798 /* PutObjectARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		D3E5F43A285DF8CE00830798 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityComposerView.swift; sourceTree = "<group>"; };
 		D3E5F440285E004400830798 /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
+		D3E5F442285E84C400830798 /* PutObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F417285DF57A00830798 /* PutObjectView.swift */,
+				D3E5F442285E84C400830798 /* PutObjectARView.swift */,
 			);
 			path = PutObject;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */,
 				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
 				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,
+				D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */,
 				D3E5F437285DF89100830798 /* ManyMaterialView.swift in Sources */,
 				D3E5F42D285DF7FA00830798 /* FaceTrackingView.swift in Sources */,
 				D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */,
