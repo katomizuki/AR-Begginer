@@ -103,7 +103,6 @@
 				D3E5F419285DF57C00830798 /* PutObject */,
 				D3E4075528536CC800EABC6B /* AppDelegate.swift */,
 				D3E4075728536CC800EABC6B /* ContentView.swift */,
-				D3E4075928536CC800EABC6B /* Experience.rcproject */,
 				D3E4075B28536CCE00EABC6B /* Assets.xcassets */,
 				D3E4075D28536CCE00EABC6B /* Preview Content */,
 			);
@@ -221,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */,
+				D3E4075928536CC800EABC6B /* Experience.rcproject */,
 			);
 			path = RealityComposer;
 			sourceTree = "<group>";
