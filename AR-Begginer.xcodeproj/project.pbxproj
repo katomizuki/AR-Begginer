@@ -28,6 +28,7 @@
 		D3E5F441285E004400830798 /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* ARShootingView.swift */; };
 		D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F442285E84C400830798 /* PutObjectARView.swift */; };
 		D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F444285E8A2800830798 /* StackObjectARView.swift */; };
+		D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F446285E8EEB00830798 /* CoachingARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		D3E5F440285E004400830798 /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
 		D3E5F442285E84C400830798 /* PutObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectARView.swift; sourceTree = "<group>"; };
 		D3E5F444285E8A2800830798 /* StackObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackObjectARView.swift; sourceTree = "<group>"; };
+		D3E5F446285E8EEB00830798 /* CoachingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F434285DF87100830798 /* CoachinView.swift */,
+				D3E5F446285E8EEB00830798 /* CoachingARView.swift */,
 			);
 			path = CoachingView;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
 				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,
+				D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */,
 				D3E5F441285E004400830798 /* ARShootingView.swift in Sources */,
 				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,
 				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
