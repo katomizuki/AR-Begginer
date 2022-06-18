@@ -12,6 +12,20 @@
 		D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075928536CC800EABC6B /* Experience.rcproject */; };
 		D3E4075C28536CCE00EABC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E4075B28536CCE00EABC6B /* Assets.xcassets */; };
 		D3E4075F28536CCE00EABC6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E4075E28536CCE00EABC6B /* Preview Assets.xcassets */; };
+		D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F417285DF57A00830798 /* PutObjectView.swift */; };
+		D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F41B285DF5CA00830798 /* StackObjectView.swift */; };
+		D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F428285DF7BA00830798 /* CardFlipView.swift */; };
+		D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F42A285DF7DE00830798 /* MoveObjectView.swift */; };
+		D3E5F42D285DF7FA00830798 /* FaceTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F42C285DF7FA00830798 /* FaceTrackingView.swift */; };
+		D3E5F42F285DF81600830798 /* BodyTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F42E285DF81600830798 /* BodyTrackingView.swift */; };
+		D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F430285DF83200830798 /* PostProcessingView.swift */; };
+		D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F432285DF84900830798 /* ImageTrackingView.swift */; };
+		D3E5F435285DF87100830798 /* CoachinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F434285DF87100830798 /* CoachinView.swift */; };
+		D3E5F437285DF89100830798 /* ManyMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F436285DF89100830798 /* ManyMaterialView.swift */; };
+		D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F438285DF8B000830798 /* ObjectTracking.swift */; };
+		D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43A285DF8CE00830798 /* MetalView.swift */; };
+		D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */; };
+		D3E5F441285E004400830798 /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* ARShootingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +35,20 @@
 		D3E4075928536CC800EABC6B /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		D3E4075B28536CCE00EABC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3E4075E28536CCE00EABC6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3E5F417285DF57A00830798 /* PutObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectView.swift; sourceTree = "<group>"; };
+		D3E5F41B285DF5CA00830798 /* StackObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackObjectView.swift; sourceTree = "<group>"; };
+		D3E5F428285DF7BA00830798 /* CardFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipView.swift; sourceTree = "<group>"; };
+		D3E5F42A285DF7DE00830798 /* MoveObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveObjectView.swift; sourceTree = "<group>"; };
+		D3E5F42C285DF7FA00830798 /* FaceTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingView.swift; sourceTree = "<group>"; };
+		D3E5F42E285DF81600830798 /* BodyTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingView.swift; sourceTree = "<group>"; };
+		D3E5F430285DF83200830798 /* PostProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessingView.swift; sourceTree = "<group>"; };
+		D3E5F432285DF84900830798 /* ImageTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingView.swift; sourceTree = "<group>"; };
+		D3E5F434285DF87100830798 /* CoachinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachinView.swift; sourceTree = "<group>"; };
+		D3E5F436285DF89100830798 /* ManyMaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyMaterialView.swift; sourceTree = "<group>"; };
+		D3E5F438285DF8B000830798 /* ObjectTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTracking.swift; sourceTree = "<group>"; };
+		D3E5F43A285DF8CE00830798 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityComposerView.swift; sourceTree = "<group>"; };
+		D3E5F440285E004400830798 /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,20 @@
 		D3E4075428536CC800EABC6B /* AR-Begginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3E5F43E285E002700830798 /* ARShooting */,
+				D3E5F427285DF6C400830798 /* RealityComposer */,
+				D3E5F426285DF66E00830798 /* Metal */,
+				D3E5F425285DF66300830798 /* ObjectTracking */,
+				D3E5F424285DF64D00830798 /* ManyMaterial */,
+				D3E5F423285DF63600830798 /* CoachingView */,
+				D3E5F422285DF62900830798 /* ImageTracking */,
+				D3E5F421285DF61B00830798 /* PostProcessing */,
+				D3E5F420285DF61600830798 /* BodyTracking */,
+				D3E5F41F285DF61000830798 /* FaceTracking */,
+				D3E5F41E285DF60100830798 /* MoveObject */,
+				D3E5F41D285DF5DC00830798 /* CardFlip */,
+				D3E5F41A285DF5B700830798 /* StackObject */,
+				D3E5F419285DF57C00830798 /* PutObject */,
 				D3E4075528536CC800EABC6B /* AppDelegate.swift */,
 				D3E4075728536CC800EABC6B /* ContentView.swift */,
 				D3E4075928536CC800EABC6B /* Experience.rcproject */,
@@ -68,6 +110,118 @@
 				D3E4075E28536CCE00EABC6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3E5F419285DF57C00830798 /* PutObject */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F417285DF57A00830798 /* PutObjectView.swift */,
+			);
+			path = PutObject;
+			sourceTree = "<group>";
+		};
+		D3E5F41A285DF5B700830798 /* StackObject */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F41B285DF5CA00830798 /* StackObjectView.swift */,
+			);
+			path = StackObject;
+			sourceTree = "<group>";
+		};
+		D3E5F41D285DF5DC00830798 /* CardFlip */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F428285DF7BA00830798 /* CardFlipView.swift */,
+			);
+			path = CardFlip;
+			sourceTree = "<group>";
+		};
+		D3E5F41E285DF60100830798 /* MoveObject */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F42A285DF7DE00830798 /* MoveObjectView.swift */,
+			);
+			path = MoveObject;
+			sourceTree = "<group>";
+		};
+		D3E5F41F285DF61000830798 /* FaceTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F42C285DF7FA00830798 /* FaceTrackingView.swift */,
+			);
+			path = FaceTracking;
+			sourceTree = "<group>";
+		};
+		D3E5F420285DF61600830798 /* BodyTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F42E285DF81600830798 /* BodyTrackingView.swift */,
+			);
+			path = BodyTracking;
+			sourceTree = "<group>";
+		};
+		D3E5F421285DF61B00830798 /* PostProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F430285DF83200830798 /* PostProcessingView.swift */,
+			);
+			path = PostProcessing;
+			sourceTree = "<group>";
+		};
+		D3E5F422285DF62900830798 /* ImageTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F432285DF84900830798 /* ImageTrackingView.swift */,
+			);
+			path = ImageTracking;
+			sourceTree = "<group>";
+		};
+		D3E5F423285DF63600830798 /* CoachingView */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F434285DF87100830798 /* CoachinView.swift */,
+			);
+			path = CoachingView;
+			sourceTree = "<group>";
+		};
+		D3E5F424285DF64D00830798 /* ManyMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F436285DF89100830798 /* ManyMaterialView.swift */,
+			);
+			path = ManyMaterial;
+			sourceTree = "<group>";
+		};
+		D3E5F425285DF66300830798 /* ObjectTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F438285DF8B000830798 /* ObjectTracking.swift */,
+			);
+			path = ObjectTracking;
+			sourceTree = "<group>";
+		};
+		D3E5F426285DF66E00830798 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F43A285DF8CE00830798 /* MetalView.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		D3E5F427285DF6C400830798 /* RealityComposer */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */,
+			);
+			path = RealityComposer;
+			sourceTree = "<group>";
+		};
+		D3E5F43E285E002700830798 /* ARShooting */ = {
+			isa = PBXGroup;
+			children = (
+				D3E5F440285E004400830798 /* ARShootingView.swift */,
+			);
+			path = ARShooting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +294,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
+				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
+				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,
+				D3E5F441285E004400830798 /* ARShootingView.swift in Sources */,
+				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,
+				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
+				D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */,
 				D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */,
+				D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */,
+				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
+				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,
+				D3E5F437285DF89100830798 /* ManyMaterialView.swift in Sources */,
+				D3E5F42D285DF7FA00830798 /* FaceTrackingView.swift in Sources */,
+				D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */,
+				D3E5F42F285DF81600830798 /* BodyTrackingView.swift in Sources */,
 				D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
