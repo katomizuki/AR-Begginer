@@ -9,6 +9,19 @@ import SwiftUI
 
 struct StackObjectView: View {
     var body: some View {
-        Text("スタックオブジェクト")
+        StackObjectARViewContainer().ignoresSafeArea()
     }
+}
+
+struct StackObjectARViewContainer: UIViewRepresentable {
+    
+    func makeUIView(context: Context) -> StackObjectARView {
+        
+        let arView = StackObjectARView(frame: .zero)
+        return arView
+        
+    }
+    
+    func updateUIView(_ uiView: StackObjectARView, context: Context) {}
+    
 }

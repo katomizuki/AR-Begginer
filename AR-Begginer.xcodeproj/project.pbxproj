@@ -27,6 +27,7 @@
 		D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */; };
 		D3E5F441285E004400830798 /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* ARShootingView.swift */; };
 		D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F442285E84C400830798 /* PutObjectARView.swift */; };
+		D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F444285E8A2800830798 /* StackObjectARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityComposerView.swift; sourceTree = "<group>"; };
 		D3E5F440285E004400830798 /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
 		D3E5F442285E84C400830798 /* PutObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectARView.swift; sourceTree = "<group>"; };
+		D3E5F444285E8A2800830798 /* StackObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackObjectARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F41B285DF5CA00830798 /* StackObjectView.swift */,
+				D3E5F444285E8A2800830798 /* StackObjectARView.swift */,
 			);
 			path = StackObject;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */,
 				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
