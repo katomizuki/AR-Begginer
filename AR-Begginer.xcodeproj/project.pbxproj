@@ -29,6 +29,8 @@
 		D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F442285E84C400830798 /* PutObjectARView.swift */; };
 		D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F444285E8A2800830798 /* StackObjectARView.swift */; };
 		D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F446285E8EEB00830798 /* CoachingARView.swift */; };
+		D3E5F465285E9DB000830798 /* ManyMaterialARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F464285E9DB000830798 /* ManyMaterialARView.swift */; };
+		D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D3E5F468285EA57400830798 /* videoMaterial.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		D3E5F442285E84C400830798 /* PutObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectARView.swift; sourceTree = "<group>"; };
 		D3E5F444285E8A2800830798 /* StackObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackObjectARView.swift; sourceTree = "<group>"; };
 		D3E5F446285E8EEB00830798 /* CoachingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingARView.swift; sourceTree = "<group>"; };
+		D3E5F464285E9DB000830798 /* ManyMaterialARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyMaterialARView.swift; sourceTree = "<group>"; };
+		D3E5F468285EA57400830798 /* videoMaterial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoMaterial.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			children = (
 				D3E5F417285DF57A00830798 /* PutObjectView.swift */,
 				D3E5F442285E84C400830798 /* PutObjectARView.swift */,
+				D3E5F468285EA57400830798 /* videoMaterial.mp4 */,
 			);
 			path = PutObject;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F436285DF89100830798 /* ManyMaterialView.swift */,
+				D3E5F464285E9DB000830798 /* ManyMaterialARView.swift */,
 			);
 			path = ManyMaterial;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			files = (
 				D3E4075F28536CCE00EABC6B /* Preview Assets.xcassets in Resources */,
 				D3E4075C28536CCE00EABC6B /* Assets.xcassets in Resources */,
+				D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +321,7 @@
 				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
 				D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */,
 				D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */,
+				D3E5F465285E9DB000830798 /* ManyMaterialARView.swift in Sources */,
 				D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */,
 				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
 				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,
