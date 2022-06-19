@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D329BBF1285FD3EF008A2167 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */; };
+		D329BBF3285FD426008A2167 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF2285FD426008A2167 /* SkeletonBone.swift */; };
+		D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF4285FD4BB008A2167 /* Bones.swift */; };
 		D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075528536CC800EABC6B /* AppDelegate.swift */; };
 		D3E4075828536CC800EABC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075728536CC800EABC6B /* ContentView.swift */; };
 		D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075928536CC800EABC6B /* Experience.rcproject */; };
@@ -35,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		D329BBF2285FD426008A2167 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		D329BBF4285FD4BB008A2167 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 		D3E4075228536CC800EABC6B /* AR-Begginer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Begginer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E4075528536CC800EABC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E4075728536CC800EABC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F42E285DF81600830798 /* BodyTrackingView.swift */,
+				D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */,
+				D329BBF2285FD426008A2167 /* SkeletonBone.swift */,
+				D329BBF4285FD4BB008A2167 /* Bones.swift */,
 			);
 			path = BodyTracking;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 				D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */,
 				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
+				D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
 				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,
 				D3E5F46B285EAB2E00830798 /* MoveObjectARView.swift in Sources */,
@@ -323,9 +333,11 @@
 				D3E5F441285E004400830798 /* ARShootingView.swift in Sources */,
 				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,
 				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
+				D329BBF1285FD3EF008A2167 /* SkeletonJoint.swift in Sources */,
 				D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */,
 				D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */,
 				D3E5F465285E9DB000830798 /* ManyMaterialARView.swift in Sources */,
+				D329BBF3285FD426008A2167 /* SkeletonBone.swift in Sources */,
 				D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */,
 				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
 				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,
