@@ -31,6 +31,7 @@
 		D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F446285E8EEB00830798 /* CoachingARView.swift */; };
 		D3E5F465285E9DB000830798 /* ManyMaterialARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F464285E9DB000830798 /* ManyMaterialARView.swift */; };
 		D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D3E5F468285EA57400830798 /* videoMaterial.mp4 */; };
+		D3E5F46B285EAB2E00830798 /* MoveObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F46A285EAB2E00830798 /* MoveObjectARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		D3E5F446285E8EEB00830798 /* CoachingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingARView.swift; sourceTree = "<group>"; };
 		D3E5F464285E9DB000830798 /* ManyMaterialARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyMaterialARView.swift; sourceTree = "<group>"; };
 		D3E5F468285EA57400830798 /* videoMaterial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoMaterial.mp4; sourceTree = "<group>"; };
+		D3E5F46A285EAB2E00830798 /* MoveObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveObjectARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F42A285DF7DE00830798 /* MoveObjectView.swift */,
+				D3E5F46A285EAB2E00830798 /* MoveObjectARView.swift */,
 			);
 			path = MoveObject;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
 				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,
+				D3E5F46B285EAB2E00830798 /* MoveObjectARView.swift in Sources */,
 				D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */,
 				D3E5F441285E004400830798 /* ARShootingView.swift in Sources */,
 				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,

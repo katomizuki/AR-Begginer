@@ -9,8 +9,18 @@ import SwiftUI
 
 struct MoveObject: View {
     var body: some View {
-        VStack {
-            
-        }
+        MoveObjectARViewContainer().edgesIgnoringSafeArea(.all)
     }
+}
+
+struct MoveObjectARViewContainer: UIViewRepresentable {
+    typealias UIViewType = MoveObjectARView
+    func makeUIView(context: Context) -> MoveObjectARView {
+        let arView = MoveObjectARView(frame: .zero)
+        return arView
+    }
+    
+    func updateUIView(_ uiView: MoveObjectARView, context: Context) {
+    }
+    
 }
