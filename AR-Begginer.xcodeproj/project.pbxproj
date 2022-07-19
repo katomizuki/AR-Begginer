@@ -10,6 +10,7 @@
 		D329BBF1285FD3EF008A2167 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */; };
 		D329BBF3285FD426008A2167 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF2285FD426008A2167 /* SkeletonBone.swift */; };
 		D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF4285FD4BB008A2167 /* Bones.swift */; };
+		D32D032A28612D96009C38A2 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D032928612D96009C38A2 /* LightView.swift */; };
 		D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075528536CC800EABC6B /* AppDelegate.swift */; };
 		D3E4075828536CC800EABC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075728536CC800EABC6B /* ContentView.swift */; };
 		D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075928536CC800EABC6B /* Experience.rcproject */; };
@@ -41,6 +42,7 @@
 		D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
 		D329BBF2285FD426008A2167 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
 		D329BBF4285FD4BB008A2167 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		D32D032928612D96009C38A2 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
 		D3E4075228536CC800EABC6B /* AR-Begginer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Begginer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E4075528536CC800EABC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E4075728536CC800EABC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32D032828612D88009C38A2 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				D32D032928612D96009C38A2 /* LightView.swift */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
 		D3E4074928536CC800EABC6B = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		D3E4075428536CC800EABC6B /* AR-Begginer */ = {
 			isa = PBXGroup;
 			children = (
+				D32D032828612D88009C38A2 /* Light */,
 				D3E5F43E285E002700830798 /* ARShooting */,
 				D3E5F427285DF6C400830798 /* RealityComposer */,
 				D3E5F426285DF66E00830798 /* Metal */,
@@ -325,6 +336,7 @@
 				D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */,
 				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
+				D32D032A28612D96009C38A2 /* LightView.swift in Sources */,
 				D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
 				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,

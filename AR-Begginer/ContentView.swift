@@ -7,10 +7,19 @@
 
 import SwiftUI
 import RealityKit
+import ARKit
 
 struct ContentView : View {
     var body: some View {
+       
         ListView()
+            .onAppear {
+                check()
+            }
+    }
+    
+    private func check() {
+        print(!ARGeoTrackingConfiguration.isSupported)
     }
 }
 
@@ -42,6 +51,13 @@ struct ListView: View {
                     } label: {
                         Text("ManyMaterial")
                     }
+                    
+                    NavigationLink {
+                        LightView()
+                    } label: {
+                        Text("Light")
+                    }
+
                 } header: {
                     Text("基本")
                 }
