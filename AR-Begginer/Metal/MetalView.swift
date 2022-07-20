@@ -8,8 +8,21 @@
 import SwiftUI
 struct MetalView: View {
     var body: some View {
-        VStack {
-            
-        }
+        MetalViewContanier().edgesIgnoringSafeArea(.all)
     }
+}
+
+struct MetalViewContanier: UIViewRepresentable {
+    typealias UIViewType = MetalARView
+    
+    func makeUIView(context: Context) -> MetalARView {
+        let arView = MetalARView(frame: .zero)
+        return arView
+    }
+    
+    func updateUIView(_ uiView: MetalARView, context: Context) {
+        
+    }
+    
+    
 }

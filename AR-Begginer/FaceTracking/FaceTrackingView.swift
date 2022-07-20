@@ -9,8 +9,18 @@ import SwiftUI
 
 struct FaceTracking: View {
     var body: some View {
-        VStack {
-            
-        }
+        FaceTrackingContainerView().edgesIgnoringSafeArea(.all)
+    }
+}
+struct FaceTrackingContainerView: UIViewRepresentable {
+    typealias UIViewType = FaceTrackingARView
+    
+    func makeUIView(context: Context) -> FaceTrackingARView {
+        let arView = FaceTrackingARView(frame: .zero)
+        return arView
+    }
+    
+    func updateUIView(_ uiView: FaceTrackingARView, context: Context) {
+        
     }
 }
