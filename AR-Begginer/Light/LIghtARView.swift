@@ -14,13 +14,14 @@ class LightARView: ARView {
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
         setupSpotLight()
-        setupPointLight()
-        setupDirectionLight()
+//        setupPointLight()
+//        setupDirectionLight()
     }
     
     private func setupSpotLight() {
         let lightAnchor = AnchorEntity(plane: .horizontal)
         let lightEntity = SpotLight()
+     
         // 光の色
         lightEntity.light.color = .blue
         // 光の強さ
@@ -46,10 +47,15 @@ class LightARView: ARView {
         let anchorEntity = AnchorEntity(plane: .horizontal)
         // 円錐形に照らすライト
         let lightEntity = DirectionalLight()
+        // ライトの色
         lightEntity.light.color = .orange
+        // ライトの強さ
         lightEntity.light.intensity = 1000
+        // ライトで影を落としたい時はここをtrueにする
         lightEntity.light.isRealWorldProxy = true
+        // 影の最大距離
         lightEntity.shadow?.maximumDistance = 10
+        // 影の深さ
         lightEntity.shadow?.depthBias = 5
         
         anchorEntity.addChild(lightEntity)
@@ -58,6 +64,20 @@ class LightARView: ARView {
     }
     
     private func setupPointLight() {
+        let anchorEntity = AnchorEntity(plane: .horizontal)
+        // 全方向ライト
+        let pointLight = PointLight()
+        // 光の色
+        pointLight.light.color = .yellow
+        // 強さ　1000
+        pointLight.light.intensity = 1000
+        // 点光源減衰半径
+        pointLight.light.attenuationRadius = 0.5
+        // どこから、どこまで光を当てるか？(relativeToをnilにするとワールド座標系になる）
+        pointLight.look(at: [0, 0, 0], from: [0, 0, 0.1], relativeTo: pointLight)
+        // pointLightを入れる。
+        anchorEntity.addChild(pointLight)
+        scene.anchors.append(anchorEntity)
         
     }
     
