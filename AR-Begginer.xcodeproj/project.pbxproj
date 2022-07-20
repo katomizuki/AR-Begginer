@@ -12,6 +12,7 @@
 		D329BBF3285FD426008A2167 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF2285FD426008A2167 /* SkeletonBone.swift */; };
 		D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF4285FD4BB008A2167 /* Bones.swift */; };
 		D32D032A28612D96009C38A2 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D032928612D96009C38A2 /* LightView.swift */; };
+		D395E09B2888B336004E753F /* PostProcessingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09A2888B336004E753F /* PostProcessingARView.swift */; };
 		D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075528536CC800EABC6B /* AppDelegate.swift */; };
 		D3E4075828536CC800EABC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075728536CC800EABC6B /* ContentView.swift */; };
 		D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075928536CC800EABC6B /* Experience.rcproject */; };
@@ -45,6 +46,7 @@
 		D329BBF2285FD426008A2167 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
 		D329BBF4285FD4BB008A2167 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 		D32D032928612D96009C38A2 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+		D395E09A2888B336004E753F /* PostProcessingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessingARView.swift; sourceTree = "<group>"; };
 		D3E4075228536CC800EABC6B /* AR-Begginer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Begginer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E4075528536CC800EABC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E4075728536CC800EABC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F430285DF83200830798 /* PostProcessingView.swift */,
+				D395E09A2888B336004E753F /* PostProcessingARView.swift */,
 			);
 			path = PostProcessing;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				D3E5F42D285DF7FA00830798 /* FaceTrackingView.swift in Sources */,
 				D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */,
 				D3E5F42F285DF81600830798 /* BodyTrackingView.swift in Sources */,
+				D395E09B2888B336004E753F /* PostProcessingARView.swift in Sources */,
 				D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
