@@ -19,6 +19,7 @@
 		D395E0A32888BB1A004E753F /* ImageTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */; };
 		D3D266C6288B616900FB038B /* ImageTrackingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C5288B616900FB038B /* ImageTrackingObject.swift */; };
 		D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C7288B663800FB038B /* TrackingImages.swift */; };
+		D3D266CA288B796700FB038B /* Dog.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D266C9288B796700FB038B /* Dog.usdz */; };
 		D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075528536CC800EABC6B /* AppDelegate.swift */; };
 		D3E4075828536CC800EABC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075728536CC800EABC6B /* ContentView.swift */; };
 		D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075928536CC800EABC6B /* Experience.rcproject */; };
@@ -59,6 +60,7 @@
 		D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingARView.swift; sourceTree = "<group>"; };
 		D3D266C5288B616900FB038B /* ImageTrackingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingObject.swift; sourceTree = "<group>"; };
 		D3D266C7288B663800FB038B /* TrackingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingImages.swift; sourceTree = "<group>"; };
+		D3D266C9288B796700FB038B /* Dog.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dog.usdz; sourceTree = "<group>"; };
 		D3E4075228536CC800EABC6B /* AR-Begginer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Begginer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E4075528536CC800EABC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E4075728536CC800EABC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				D3E5F419285DF57C00830798 /* PutObject */,
 				D3E4075528536CC800EABC6B /* AppDelegate.swift */,
 				D3E4075728536CC800EABC6B /* ContentView.swift */,
+				D3D266C9288B796700FB038B /* Dog.usdz */,
 				D3E4075B28536CCE00EABC6B /* Assets.xcassets */,
 				D3E4075D28536CCE00EABC6B /* Preview Content */,
 			);
@@ -346,6 +349,7 @@
 			files = (
 				D3E4075F28536CCE00EABC6B /* Preview Assets.xcassets in Resources */,
 				D3E4075C28536CCE00EABC6B /* Assets.xcassets in Resources */,
+				D3D266CA288B796700FB038B /* Dog.usdz in Resources */,
 				D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

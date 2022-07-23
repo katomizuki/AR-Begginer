@@ -4,6 +4,8 @@
     "version" : 1
   },
   "resources" : [
-
+    {
+      "filename" : "Dog.arreferenceimage"
+    }
   ]
 }
