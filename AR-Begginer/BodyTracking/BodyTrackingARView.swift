@@ -23,6 +23,7 @@ class BodyTrackingARView: ARView {
     
     private func setup() {
         let config = ARBodyTrackingConfiguration()
+        // ここでチェックを入れる。
         guard ARBodyTrackingConfiguration.isSupported else {
             fatalError()
         }
@@ -31,6 +32,7 @@ class BodyTrackingARView: ARView {
     }
     
     private func loadModel() {
+        // AnyCancellableで購読をキャンセルするときに使用する。sinkでAnyCancellableが返却されるので勝手にサブスクライブが破棄されないように事前に用意する必要がある。
         var cancellable: AnyCancellable? = nil
         cancellable = Entity.loadBodyTrackedAsync(named: "charcter/robot")
             .sink(receiveCompletion: { loadCompletion in
@@ -40,7 +42,9 @@ class BodyTrackingARView: ARView {
                     cancellable?.cancel()
                 }
             }, receiveValue: { entity in
+                // 大きさを指定して
                 entity.scale = [1.0, 1.0, 1.0]
+                // ボディトラックエンティティに追加する
                 self.bodyTrackedEntity = entity
                 cancellable?.cancel()
             })
@@ -56,8 +60,10 @@ class BodyTrackingARView: ARView {
 
 extension BodyTrackingARView: ARSessionDelegate {
     func session(_ session: ARSession, didUpdate anchors: [ARAnchor]) {
+        // anchorsをforループで回しつつ ARBodyAnchorにキャストできるものはする。
         for anchor in anchors {
             guard let bodyAnchor = anchor as? ARBodyAnchor else { continue }
+            // ボディアンカーのTransformのカラムから位置を取ってきて
             let bodyPosition = simd_make_float3(bodyAnchor.transform.columns.3)
             bodyTrackedEntity?.position = bodyPosition + characterOffset
             //　親を中心とした相対的な回転。　ワールド座標を参照したい場合は引数にnilを渡す。
