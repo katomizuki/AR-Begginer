@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D3029D09288765F600233870 /* LIghtARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3029D08288765F600233870 /* LIghtARView.swift */; };
-		D329BBF1285FD3EF008A2167 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */; };
-		D329BBF3285FD426008A2167 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF2285FD426008A2167 /* SkeletonBone.swift */; };
-		D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329BBF4285FD4BB008A2167 /* Bones.swift */; };
 		D32D032A28612D96009C38A2 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D032928612D96009C38A2 /* LightView.swift */; };
 		D395E09B2888B336004E753F /* PostProcessingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09A2888B336004E753F /* PostProcessingARView.swift */; };
 		D395E09D2888B90D004E753F /* MetalARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09C2888B90D004E753F /* MetalARView.swift */; };
@@ -20,6 +17,9 @@
 		D3D266C6288B616900FB038B /* ImageTrackingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C5288B616900FB038B /* ImageTrackingObject.swift */; };
 		D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C7288B663800FB038B /* TrackingImages.swift */; };
 		D3D266CA288B796700FB038B /* Dog.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D266C9288B796700FB038B /* Dog.usdz */; };
+		D3D266CC288B8AE900FB038B /* BodyTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266CB288B8AE900FB038B /* BodyTrackingARView.swift */; };
+		D3D266D0288B8ECF00FB038B /* robot 2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D266CE288B8ECF00FB038B /* robot 2.usdz */; };
+		D3D266D1288B8ECF00FB038B /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D266CF288B8ECF00FB038B /* robot.usdz */; };
 		D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075528536CC800EABC6B /* AppDelegate.swift */; };
 		D3E4075828536CC800EABC6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075728536CC800EABC6B /* ContentView.swift */; };
 		D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3E4075928536CC800EABC6B /* Experience.rcproject */; };
@@ -49,9 +49,6 @@
 
 /* Begin PBXFileReference section */
 		D3029D08288765F600233870 /* LIghtARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIghtARView.swift; sourceTree = "<group>"; };
-		D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
-		D329BBF2285FD426008A2167 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
-		D329BBF4285FD4BB008A2167 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 		D32D032928612D96009C38A2 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
 		D395E09A2888B336004E753F /* PostProcessingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessingARView.swift; sourceTree = "<group>"; };
 		D395E09C2888B90D004E753F /* MetalARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalARView.swift; sourceTree = "<group>"; };
@@ -61,6 +58,9 @@
 		D3D266C5288B616900FB038B /* ImageTrackingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingObject.swift; sourceTree = "<group>"; };
 		D3D266C7288B663800FB038B /* TrackingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingImages.swift; sourceTree = "<group>"; };
 		D3D266C9288B796700FB038B /* Dog.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dog.usdz; sourceTree = "<group>"; };
+		D3D266CB288B8AE900FB038B /* BodyTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingARView.swift; sourceTree = "<group>"; };
+		D3D266CE288B8ECF00FB038B /* robot 2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "robot 2.usdz"; sourceTree = "<group>"; };
+		D3D266CF288B8ECF00FB038B /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot.usdz; sourceTree = "<group>"; };
 		D3E4075228536CC800EABC6B /* AR-Begginer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Begginer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E4075528536CC800EABC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E4075728536CC800EABC6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +109,15 @@
 			path = Light;
 			sourceTree = "<group>";
 		};
+		D3D266CD288B8ECF00FB038B /* character */ = {
+			isa = PBXGroup;
+			children = (
+				D3D266CE288B8ECF00FB038B /* robot 2.usdz */,
+				D3D266CF288B8ECF00FB038B /* robot.usdz */,
+			);
+			path = character;
+			sourceTree = "<group>";
+		};
 		D3E4074928536CC800EABC6B = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +154,7 @@
 				D3E5F419285DF57C00830798 /* PutObject */,
 				D3E4075528536CC800EABC6B /* AppDelegate.swift */,
 				D3E4075728536CC800EABC6B /* ContentView.swift */,
+				D3D266CD288B8ECF00FB038B /* character */,
 				D3D266C9288B796700FB038B /* Dog.usdz */,
 				D3E4075B28536CCE00EABC6B /* Assets.xcassets */,
 				D3E4075D28536CCE00EABC6B /* Preview Content */,
@@ -209,9 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F42E285DF81600830798 /* BodyTrackingView.swift */,
-				D329BBF0285FD3EF008A2167 /* SkeletonJoint.swift */,
-				D329BBF2285FD426008A2167 /* SkeletonBone.swift */,
-				D329BBF4285FD4BB008A2167 /* Bones.swift */,
+				D3D266CB288B8AE900FB038B /* BodyTrackingARView.swift */,
 			);
 			path = BodyTracking;
 			sourceTree = "<group>";
@@ -350,6 +358,8 @@
 				D3E4075F28536CCE00EABC6B /* Preview Assets.xcassets in Resources */,
 				D3E4075C28536CCE00EABC6B /* Assets.xcassets in Resources */,
 				D3D266CA288B796700FB038B /* Dog.usdz in Resources */,
+				D3D266D0288B8ECF00FB038B /* robot 2.usdz in Resources */,
+				D3D266D1288B8ECF00FB038B /* robot.usdz in Resources */,
 				D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,12 +373,12 @@
 			files = (
 				D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */,
 				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
+				D3D266CC288B8AE900FB038B /* BodyTrackingARView.swift in Sources */,
 				D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */,
 				D3029D09288765F600233870 /* LIghtARView.swift in Sources */,
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D32D032A28612D96009C38A2 /* LightView.swift in Sources */,
 				D395E09D2888B90D004E753F /* MetalARView.swift in Sources */,
-				D329BBF5285FD4BB008A2167 /* Bones.swift in Sources */,
 				D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */,
 				D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
@@ -378,12 +388,10 @@
 				D3E5F441285E004400830798 /* ARShootingView.swift in Sources */,
 				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,
 				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
-				D329BBF1285FD3EF008A2167 /* SkeletonJoint.swift in Sources */,
 				D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */,
 				D3D266C6288B616900FB038B /* ImageTrackingObject.swift in Sources */,
 				D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */,
 				D3E5F465285E9DB000830798 /* ManyMaterialARView.swift in Sources */,
-				D329BBF3285FD426008A2167 /* SkeletonBone.swift in Sources */,
 				D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */,
 				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
 				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,

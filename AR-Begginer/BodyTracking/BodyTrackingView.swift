@@ -16,13 +16,13 @@ struct BodyTrackingView: View {
 }
 
 struct BodyTrackingViewContainer: UIViewRepresentable {
-    typealias UIViewType = ARView
-    func makeUIView(context: Context) -> ARView {
-        let arView = ARView(frame: .zero, cameraMode: .ar, automaticallyConfigureSession: true)
+    typealias UIViewType = BodyTrackingARView
+    func makeUIView(context: Context) -> BodyTrackingARView {
+        let arView = BodyTrackingARView(frame: .zero)
         return arView
     }
     
-    func updateUIView(_ uiView: ARView, context: Context) {
+    func updateUIView(_ uiView: BodyTrackingARView, context: Context) {
         
     }
     
