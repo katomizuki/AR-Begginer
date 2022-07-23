@@ -11,7 +11,7 @@ class MetalARView: ARView {
     
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
-        
+        setupMetal()
         
     }
     

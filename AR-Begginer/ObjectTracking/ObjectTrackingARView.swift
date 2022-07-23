@@ -12,6 +12,16 @@ class ObjectTrackingARView: ARView {
     
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
+        setup()
+    }
+    
+    private func setup() {
+        let config = ARWorldTrackingConfiguration()
+        config.planeDetection = [.horizontal]
+        if let objects = ARReferenceObject.referenceObjects(inGroupNamed: "AR Resources", bundle: nil) {
+            config.detectionObjects = objects
+        }
+        session.run(config, options: [.resetTracking, .removeExistingAnchors])
     }
     
     @MainActor required dynamic init?(coder decoder: NSCoder) {

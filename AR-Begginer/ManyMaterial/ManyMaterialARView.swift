@@ -77,7 +77,6 @@ class ManyMaterialARView: ARView {
             player.play()
             anchorEntity.addChild(box)
             scene.anchors.append(anchorEntity)
-            print("あれ？")
     }
 
     @MainActor required dynamic init?(coder decoder: NSCoder) {
