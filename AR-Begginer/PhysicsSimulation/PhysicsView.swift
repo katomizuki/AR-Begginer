@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PhysicsView: View {
     var body: some View {
-        
+        PhysicsViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
 
