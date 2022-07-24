@@ -117,20 +117,18 @@ struct ListView: View {
                     NavigationLink {
                         EnviromentTextureView()
                     } label: {
-                        Text("MetalView")
+                        Text("環境テクスチャマッピング")
+                    }
+                    NavigationLink {
+                        EnviromentTextureView()
+                    } label: {
+                        Text("コリジョン")
                     }
                 } header: {
-                    Text("Metalなど")
+                    Text("それ以外")
                 }
 
                 Section {
-                
-                    NavigationLink {
-                        ARShootingView()
-                    } label: {
-                        Text("ARShooting")
-                    }
-                    
                     NavigationLink {
                         CardFlipView()
                     } label: {

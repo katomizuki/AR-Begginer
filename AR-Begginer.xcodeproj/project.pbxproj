@@ -11,6 +11,9 @@
 		D32D032A28612D96009C38A2 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D032928612D96009C38A2 /* LightView.swift */; };
 		D3582AEF288CBD0E007F4990 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3582AEE288CBD0E007F4990 /* DetectedObject.swift */; };
 		D3582AF3288CD2B7007F4990 /* Post.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3582AF2288CD2B7007F4990 /* Post.usdz */; };
+		D3582AF5288CD5D4007F4990 /* CollistionARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3582AF4288CD5D4007F4990 /* CollistionARView.swift */; };
+		D3582AF8288CD713007F4990 /* PhysicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3582AF7288CD713007F4990 /* PhysicsView.swift */; };
+		D3582AFA288CD71C007F4990 /* PhysicsARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3582AF9288CD71C007F4990 /* PhysicsARView.swift */; };
 		D395E09B2888B336004E753F /* PostProcessingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09A2888B336004E753F /* PostProcessingARView.swift */; };
 		D395E09D2888B90D004E753F /* EnviromentTextureARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09C2888B90D004E753F /* EnviromentTextureARView.swift */; };
 		D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09E2888BA51004E753F /* FaceTrackingARView.swift */; };
@@ -40,7 +43,7 @@
 		D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F438285DF8B000830798 /* ObjectTracking.swift */; };
 		D3E5F43B285DF8CE00830798 /* EnviromentTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43A285DF8CE00830798 /* EnviromentTextureView.swift */; };
 		D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */; };
-		D3E5F441285E004400830798 /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* ARShootingView.swift */; };
+		D3E5F441285E004400830798 /* CollisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* CollisionView.swift */; };
 		D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F442285E84C400830798 /* PutObjectARView.swift */; };
 		D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F444285E8A2800830798 /* StackObjectARView.swift */; };
 		D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F446285E8EEB00830798 /* CoachingARView.swift */; };
@@ -55,6 +58,9 @@
 		D3582AED288CBB60007F4990 /* Pouch.arobject */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pouch.arobject; sourceTree = "<group>"; };
 		D3582AEE288CBD0E007F4990 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
 		D3582AF2288CD2B7007F4990 /* Post.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Post.usdz; sourceTree = "<group>"; };
+		D3582AF4288CD5D4007F4990 /* CollistionARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollistionARView.swift; sourceTree = "<group>"; };
+		D3582AF7288CD713007F4990 /* PhysicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsView.swift; sourceTree = "<group>"; };
+		D3582AF9288CD71C007F4990 /* PhysicsARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsARView.swift; sourceTree = "<group>"; };
 		D395E09A2888B336004E753F /* PostProcessingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessingARView.swift; sourceTree = "<group>"; };
 		D395E09C2888B90D004E753F /* EnviromentTextureARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentTextureARView.swift; sourceTree = "<group>"; };
 		D395E09E2888BA51004E753F /* FaceTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingARView.swift; sourceTree = "<group>"; };
@@ -85,7 +91,7 @@
 		D3E5F438285DF8B000830798 /* ObjectTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTracking.swift; sourceTree = "<group>"; };
 		D3E5F43A285DF8CE00830798 /* EnviromentTextureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentTextureView.swift; sourceTree = "<group>"; };
 		D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityComposerView.swift; sourceTree = "<group>"; };
-		D3E5F440285E004400830798 /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
+		D3E5F440285E004400830798 /* CollisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionView.swift; sourceTree = "<group>"; };
 		D3E5F442285E84C400830798 /* PutObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectARView.swift; sourceTree = "<group>"; };
 		D3E5F444285E8A2800830798 /* StackObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackObjectARView.swift; sourceTree = "<group>"; };
 		D3E5F446285E8EEB00830798 /* CoachingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingARView.swift; sourceTree = "<group>"; };
@@ -112,6 +118,15 @@
 				D3029D08288765F600233870 /* LIghtARView.swift */,
 			);
 			path = Light;
+			sourceTree = "<group>";
+		};
+		D3582AF6288CD701007F4990 /* PhysicsSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				D3582AF7288CD713007F4990 /* PhysicsView.swift */,
+				D3582AF9288CD71C007F4990 /* PhysicsARView.swift */,
+			);
+			path = PhysicsSimulation;
 			sourceTree = "<group>";
 		};
 		D3D266CD288B8ECF00FB038B /* character */ = {
@@ -142,10 +157,11 @@
 		D3E4075428536CC800EABC6B /* AR-Begginer */ = {
 			isa = PBXGroup;
 			children = (
+				D3582AF6288CD701007F4990 /* PhysicsSimulation */,
 				D32D032828612D88009C38A2 /* Light */,
-				D3E5F43E285E002700830798 /* ARShooting */,
+				D3E5F43E285E002700830798 /* Collistion */,
 				D3E5F427285DF6C400830798 /* RealityComposer */,
-				D3E5F426285DF66E00830798 /* Metal */,
+				D3E5F426285DF66E00830798 /* EnviromentTexture */,
 				D3E5F425285DF66300830798 /* ObjectTracking */,
 				D3E5F424285DF64D00830798 /* ManyMaterial */,
 				D3E5F423285DF63600830798 /* CoachingView */,
@@ -278,14 +294,14 @@
 			path = ObjectTracking;
 			sourceTree = "<group>";
 		};
-		D3E5F426285DF66E00830798 /* Metal */ = {
+		D3E5F426285DF66E00830798 /* EnviromentTexture */ = {
 			isa = PBXGroup;
 			children = (
 				D3E5F43A285DF8CE00830798 /* EnviromentTextureView.swift */,
 				D395E09C2888B90D004E753F /* EnviromentTextureARView.swift */,
 				D3582AF2288CD2B7007F4990 /* Post.usdz */,
 			);
-			path = Metal;
+			path = EnviromentTexture;
 			sourceTree = "<group>";
 		};
 		D3E5F427285DF6C400830798 /* RealityComposer */ = {
@@ -297,12 +313,13 @@
 			path = RealityComposer;
 			sourceTree = "<group>";
 		};
-		D3E5F43E285E002700830798 /* ARShooting */ = {
+		D3E5F43E285E002700830798 /* Collistion */ = {
 			isa = PBXGroup;
 			children = (
-				D3E5F440285E004400830798 /* ARShootingView.swift */,
+				D3E5F440285E004400830798 /* CollisionView.swift */,
+				D3582AF4288CD5D4007F4990 /* CollistionARView.swift */,
 			);
-			path = ARShooting;
+			path = Collistion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,10 +408,11 @@
 				D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */,
 				D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
+				D3582AF5288CD5D4007F4990 /* CollistionARView.swift in Sources */,
 				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,
 				D3E5F46B285EAB2E00830798 /* MoveObjectARView.swift in Sources */,
 				D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */,
-				D3E5F441285E004400830798 /* ARShootingView.swift in Sources */,
+				D3E5F441285E004400830798 /* CollisionView.swift in Sources */,
 				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,
 				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
 				D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */,
@@ -406,7 +424,9 @@
 				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
 				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,
 				D395E0A32888BB1A004E753F /* ImageTrackingARView.swift in Sources */,
+				D3582AFA288CD71C007F4990 /* PhysicsARView.swift in Sources */,
 				D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */,
+				D3582AF8288CD713007F4990 /* PhysicsView.swift in Sources */,
 				D3E5F437285DF89100830798 /* ManyMaterialView.swift in Sources */,
 				D3E5F42D285DF7FA00830798 /* FaceTrackingView.swift in Sources */,
 				D3E5F43B285DF8CE00830798 /* EnviromentTextureView.swift in Sources */,
