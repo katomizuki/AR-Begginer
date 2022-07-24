@@ -115,7 +115,7 @@ struct ListView: View {
                     }
                     
                     NavigationLink {
-                        MetalView()
+                        EnviromentTextureView()
                     } label: {
                         Text("MetalView")
                     }

@@ -10,8 +10,9 @@
 		D3029D09288765F600233870 /* LIghtARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3029D08288765F600233870 /* LIghtARView.swift */; };
 		D32D032A28612D96009C38A2 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D032928612D96009C38A2 /* LightView.swift */; };
 		D3582AEF288CBD0E007F4990 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3582AEE288CBD0E007F4990 /* DetectedObject.swift */; };
+		D3582AF3288CD2B7007F4990 /* Post.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3582AF2288CD2B7007F4990 /* Post.usdz */; };
 		D395E09B2888B336004E753F /* PostProcessingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09A2888B336004E753F /* PostProcessingARView.swift */; };
-		D395E09D2888B90D004E753F /* MetalARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09C2888B90D004E753F /* MetalARView.swift */; };
+		D395E09D2888B90D004E753F /* EnviromentTextureARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09C2888B90D004E753F /* EnviromentTextureARView.swift */; };
 		D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09E2888BA51004E753F /* FaceTrackingARView.swift */; };
 		D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A02888BAA4004E753F /* ObjectTrackingARView.swift */; };
 		D395E0A32888BB1A004E753F /* ImageTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */; };
@@ -37,7 +38,7 @@
 		D3E5F435285DF87100830798 /* CoachinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F434285DF87100830798 /* CoachinView.swift */; };
 		D3E5F437285DF89100830798 /* ManyMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F436285DF89100830798 /* ManyMaterialView.swift */; };
 		D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F438285DF8B000830798 /* ObjectTracking.swift */; };
-		D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43A285DF8CE00830798 /* MetalView.swift */; };
+		D3E5F43B285DF8CE00830798 /* EnviromentTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43A285DF8CE00830798 /* EnviromentTextureView.swift */; };
 		D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */; };
 		D3E5F441285E004400830798 /* ARShootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F440285E004400830798 /* ARShootingView.swift */; };
 		D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5F442285E84C400830798 /* PutObjectARView.swift */; };
@@ -53,8 +54,9 @@
 		D32D032928612D96009C38A2 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
 		D3582AED288CBB60007F4990 /* Pouch.arobject */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pouch.arobject; sourceTree = "<group>"; };
 		D3582AEE288CBD0E007F4990 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
+		D3582AF2288CD2B7007F4990 /* Post.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Post.usdz; sourceTree = "<group>"; };
 		D395E09A2888B336004E753F /* PostProcessingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessingARView.swift; sourceTree = "<group>"; };
-		D395E09C2888B90D004E753F /* MetalARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalARView.swift; sourceTree = "<group>"; };
+		D395E09C2888B90D004E753F /* EnviromentTextureARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentTextureARView.swift; sourceTree = "<group>"; };
 		D395E09E2888BA51004E753F /* FaceTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingARView.swift; sourceTree = "<group>"; };
 		D395E0A02888BAA4004E753F /* ObjectTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingARView.swift; sourceTree = "<group>"; };
 		D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingARView.swift; sourceTree = "<group>"; };
@@ -81,7 +83,7 @@
 		D3E5F434285DF87100830798 /* CoachinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachinView.swift; sourceTree = "<group>"; };
 		D3E5F436285DF89100830798 /* ManyMaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyMaterialView.swift; sourceTree = "<group>"; };
 		D3E5F438285DF8B000830798 /* ObjectTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTracking.swift; sourceTree = "<group>"; };
-		D3E5F43A285DF8CE00830798 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		D3E5F43A285DF8CE00830798 /* EnviromentTextureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentTextureView.swift; sourceTree = "<group>"; };
 		D3E5F43C285DF8EA00830798 /* RealityComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityComposerView.swift; sourceTree = "<group>"; };
 		D3E5F440285E004400830798 /* ARShootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShootingView.swift; sourceTree = "<group>"; };
 		D3E5F442285E84C400830798 /* PutObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutObjectARView.swift; sourceTree = "<group>"; };
@@ -279,8 +281,9 @@
 		D3E5F426285DF66E00830798 /* Metal */ = {
 			isa = PBXGroup;
 			children = (
-				D3E5F43A285DF8CE00830798 /* MetalView.swift */,
-				D395E09C2888B90D004E753F /* MetalARView.swift */,
+				D3E5F43A285DF8CE00830798 /* EnviromentTextureView.swift */,
+				D395E09C2888B90D004E753F /* EnviromentTextureARView.swift */,
+				D3582AF2288CD2B7007F4990 /* Post.usdz */,
 			);
 			path = Metal;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				D3E4075F28536CCE00EABC6B /* Preview Assets.xcassets in Resources */,
 				D3E4075C28536CCE00EABC6B /* Assets.xcassets in Resources */,
 				D3D266CA288B796700FB038B /* Dog.usdz in Resources */,
+				D3582AF3288CD2B7007F4990 /* Post.usdz in Resources */,
 				D3D266D0288B8ECF00FB038B /* robot 2.usdz in Resources */,
 				D3D266D1288B8ECF00FB038B /* robot.usdz in Resources */,
 				D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */,
@@ -383,7 +387,7 @@
 				D3029D09288765F600233870 /* LIghtARView.swift in Sources */,
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D32D032A28612D96009C38A2 /* LightView.swift in Sources */,
-				D395E09D2888B90D004E753F /* MetalARView.swift in Sources */,
+				D395E09D2888B90D004E753F /* EnviromentTextureARView.swift in Sources */,
 				D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */,
 				D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
@@ -405,7 +409,7 @@
 				D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */,
 				D3E5F437285DF89100830798 /* ManyMaterialView.swift in Sources */,
 				D3E5F42D285DF7FA00830798 /* FaceTrackingView.swift in Sources */,
-				D3E5F43B285DF8CE00830798 /* MetalView.swift in Sources */,
+				D3E5F43B285DF8CE00830798 /* EnviromentTextureView.swift in Sources */,
 				D3E5F42F285DF81600830798 /* BodyTrackingView.swift in Sources */,
 				D395E09B2888B336004E753F /* PostProcessingARView.swift in Sources */,
 				D3E4075A28536CC800EABC6B /* Experience.rcproject in Sources */,
