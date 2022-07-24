@@ -19,6 +19,7 @@
 		D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E09E2888BA51004E753F /* FaceTrackingARView.swift */; };
 		D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A02888BAA4004E753F /* ObjectTrackingARView.swift */; };
 		D395E0A32888BB1A004E753F /* ImageTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */; };
+		D3D16CA1288E0FD900B125B5 /* Sphere.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D16CA0288E0FD900B125B5 /* Sphere.usdz */; };
 		D3D266C6288B616900FB038B /* ImageTrackingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C5288B616900FB038B /* ImageTrackingObject.swift */; };
 		D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C7288B663800FB038B /* TrackingImages.swift */; };
 		D3D266CA288B796700FB038B /* Dog.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D266C9288B796700FB038B /* Dog.usdz */; };
@@ -66,6 +67,7 @@
 		D395E09E2888BA51004E753F /* FaceTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingARView.swift; sourceTree = "<group>"; };
 		D395E0A02888BAA4004E753F /* ObjectTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingARView.swift; sourceTree = "<group>"; };
 		D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingARView.swift; sourceTree = "<group>"; };
+		D3D16CA0288E0FD900B125B5 /* Sphere.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sphere.usdz; sourceTree = "<group>"; };
 		D3D266C5288B616900FB038B /* ImageTrackingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingObject.swift; sourceTree = "<group>"; };
 		D3D266C7288B663800FB038B /* TrackingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingImages.swift; sourceTree = "<group>"; };
 		D3D266C9288B796700FB038B /* Dog.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dog.usdz; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				D3E5F440285E004400830798 /* CollisionView.swift */,
+				D3D16CA0288E0FD900B125B5 /* Sphere.usdz */,
 				D3582AF4288CD5D4007F4990 /* CollistionARView.swift */,
 			);
 			path = Collistion;
@@ -386,6 +389,7 @@
 				D3582AF3288CD2B7007F4990 /* Post.usdz in Resources */,
 				D3D266D0288B8ECF00FB038B /* robot 2.usdz in Resources */,
 				D3D266D1288B8ECF00FB038B /* robot.usdz in Resources */,
+				D3D16CA1288E0FD900B125B5 /* Sphere.usdz in Resources */,
 				D3E5F469285EA99200830798 /* videoMaterial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
