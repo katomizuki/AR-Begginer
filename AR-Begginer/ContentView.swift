@@ -124,6 +124,11 @@ struct ListView: View {
                     } label: {
                         Text("コリジョン")
                     }
+                    NavigationLink {
+                        PhysicsView()
+                    } label: {
+                        Text("物理シミュレーション")
+                    }
                 } header: {
                     Text("それ以外")
                 }
