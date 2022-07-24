@@ -42,3 +42,25 @@ class VirtualObject {
     }
 }
 
+extension VirtualObject {
+    func addTextModel(_ text: String,
+                      extrusionDepth: Float,
+                      fontSize: CGFloat,
+                      color: UIColor) {
+        let textMesh = MeshResource.generateText(text, extrusionDepth: extrusionDepth,
+                                                 font: .systemFont(ofSize: fontSize),
+                                                 containerFrame: .zero,
+                                                 alignment: .center,
+                                                 lineBreakMode: .byTruncatingTail)
+        let textMaterial = SimpleMaterial(color: color, isMetallic: false)
+        let textModel = ModelEntity(mesh: textMesh, materials: [textMaterial])
+        modelEntity = textModel
+        
+        modelAnchor.addChild(textModel)
+        // textの真ん中を取ってくる、元々、テキストメッシュは左下が原点（0,0,0)なので、親のModelEntityと中心がずれてしまう。そのため、中心を一旦変数に入れつつ、その分ズラスト揃う
+        let center = textMesh.bounds.center
+        textModel.position = [-center.x, -center.y, -center.z]
+        
+        
+    }
+}

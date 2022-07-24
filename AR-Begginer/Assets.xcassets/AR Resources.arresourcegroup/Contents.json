@@ -6,6 +6,9 @@
   "resources" : [
     {
       "filename" : "Dog.arreferenceimage"
+    },
+    {
+      "filename" : "Pouch.arobject"
     }
   ]
 }
