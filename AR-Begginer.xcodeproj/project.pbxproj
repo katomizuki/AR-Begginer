@@ -20,6 +20,19 @@
 		D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A02888BAA4004E753F /* ObjectTrackingARView.swift */; };
 		D395E0A32888BB1A004E753F /* ImageTrackingARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */; };
 		D3D16CA1288E0FD900B125B5 /* Sphere.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D16CA0288E0FD900B125B5 /* Sphere.usdz */; };
+		D3D16CA6288E168B00B125B5 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CA2288E168B00B125B5 /* CardComponent.swift */; };
+		D3D16CA7288E168B00B125B5 /* ARButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CA3288E168B00B125B5 /* ARButton.swift */; };
+		D3D16CA8288E168B00B125B5 /* FlipTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CA4288E168B00B125B5 /* FlipTable.swift */; };
+		D3D16CA9288E168B00B125B5 /* FlipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CA5288E168B00B125B5 /* FlipCard.swift */; };
+		D3D16CAE288E16A600B125B5 /* CardFlipARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CAC288E16A600B125B5 /* CardFlipARView.swift */; };
+		D3D16CAF288E16A600B125B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CAD288E16A600B125B5 /* ContentView.swift */; };
+		D3D16CB3288E16BA00B125B5 /* HasCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB1288E16BA00B125B5 /* HasCard.swift */; };
+		D3D16CB4288E16BA00B125B5 /* HasTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB2288E16BA00B125B5 /* HasTap.swift */; };
+		D3D16CB9288E16C600B125B5 /* CardFlipARView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB6288E16C600B125B5 /* CardFlipARView+Extension.swift */; };
+		D3D16CBA288E16C600B125B5 /* CardFlipARView+Coaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB7288E16C600B125B5 /* CardFlipARView+Coaching.swift */; };
+		D3D16CBB288E16C600B125B5 /* CardFlipARView+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB8288E16C600B125B5 /* CardFlipARView+Gesture.swift */; };
+		D3D16CBF288E16D200B125B5 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CBD288E16D200B125B5 /* GameData.swift */; };
+		D3D16CC0288E16D200B125B5 /* GameStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CBE288E16D200B125B5 /* GameStatus.swift */; };
 		D3D266C6288B616900FB038B /* ImageTrackingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C5288B616900FB038B /* ImageTrackingObject.swift */; };
 		D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D266C7288B663800FB038B /* TrackingImages.swift */; };
 		D3D266CA288B796700FB038B /* Dog.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3D266C9288B796700FB038B /* Dog.usdz */; };
@@ -68,6 +81,19 @@
 		D395E0A02888BAA4004E753F /* ObjectTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingARView.swift; sourceTree = "<group>"; };
 		D395E0A22888BB1A004E753F /* ImageTrackingARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingARView.swift; sourceTree = "<group>"; };
 		D3D16CA0288E0FD900B125B5 /* Sphere.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sphere.usdz; sourceTree = "<group>"; };
+		D3D16CA2288E168B00B125B5 /* CardComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		D3D16CA3288E168B00B125B5 /* ARButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARButton.swift; sourceTree = "<group>"; };
+		D3D16CA4288E168B00B125B5 /* FlipTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipTable.swift; sourceTree = "<group>"; };
+		D3D16CA5288E168B00B125B5 /* FlipCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCard.swift; sourceTree = "<group>"; };
+		D3D16CAC288E16A600B125B5 /* CardFlipARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFlipARView.swift; sourceTree = "<group>"; };
+		D3D16CAD288E16A600B125B5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3D16CB1288E16BA00B125B5 /* HasCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasCard.swift; sourceTree = "<group>"; };
+		D3D16CB2288E16BA00B125B5 /* HasTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasTap.swift; sourceTree = "<group>"; };
+		D3D16CB6288E16C600B125B5 /* CardFlipARView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+Extension.swift"; sourceTree = "<group>"; };
+		D3D16CB7288E16C600B125B5 /* CardFlipARView+Coaching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+Coaching.swift"; sourceTree = "<group>"; };
+		D3D16CB8288E16C600B125B5 /* CardFlipARView+Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+Gesture.swift"; sourceTree = "<group>"; };
+		D3D16CBD288E16D200B125B5 /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		D3D16CBE288E16D200B125B5 /* GameStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatus.swift; sourceTree = "<group>"; };
 		D3D266C5288B616900FB038B /* ImageTrackingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingObject.swift; sourceTree = "<group>"; };
 		D3D266C7288B663800FB038B /* TrackingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingImages.swift; sourceTree = "<group>"; };
 		D3D266C9288B796700FB038B /* Dog.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dog.usdz; sourceTree = "<group>"; };
@@ -129,6 +155,54 @@
 				D3582AF9288CD71C007F4990 /* PhysicsARView.swift */,
 			);
 			path = PhysicsSimulation;
+			sourceTree = "<group>";
+		};
+		D3D16CAA288E168F00B125B5 /* ARClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D3D16CA3288E168B00B125B5 /* ARButton.swift */,
+				D3D16CA2288E168B00B125B5 /* CardComponent.swift */,
+				D3D16CA5288E168B00B125B5 /* FlipCard.swift */,
+				D3D16CA4288E168B00B125B5 /* FlipTable.swift */,
+			);
+			path = ARClasses;
+			sourceTree = "<group>";
+		};
+		D3D16CAB288E16A600B125B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3D16CAC288E16A600B125B5 /* CardFlipARView.swift */,
+				D3D16CAD288E16A600B125B5 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3D16CB0288E16BA00B125B5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D3D16CB1288E16BA00B125B5 /* HasCard.swift */,
+				D3D16CB2288E16BA00B125B5 /* HasTap.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D3D16CB5288E16C600B125B5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3D16CB6288E16C600B125B5 /* CardFlipARView+Extension.swift */,
+				D3D16CB7288E16C600B125B5 /* CardFlipARView+Coaching.swift */,
+				D3D16CB8288E16C600B125B5 /* CardFlipARView+Gesture.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D3D16CBC288E16D200B125B5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				D3D16CBD288E16D200B125B5 /* GameData.swift */,
+				D3D16CBE288E16D200B125B5 /* GameStatus.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 		D3D266CD288B8ECF00FB038B /* character */ = {
@@ -215,6 +289,11 @@
 		D3E5F41D285DF5DC00830798 /* CardFlip */ = {
 			isa = PBXGroup;
 			children = (
+				D3D16CBC288E16D200B125B5 /* Game */,
+				D3D16CB5288E16C600B125B5 /* Extension */,
+				D3D16CB0288E16BA00B125B5 /* Protocol */,
+				D3D16CAB288E16A600B125B5 /* Views */,
+				D3D16CAA288E168F00B125B5 /* ARClasses */,
 				D3E5F428285DF7BA00830798 /* CardFlipView.swift */,
 			);
 			path = CardFlip;
@@ -403,30 +482,43 @@
 			files = (
 				D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */,
 				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
+				D3D16CAF288E16A600B125B5 /* ContentView.swift in Sources */,
 				D3D266CC288B8AE900FB038B /* BodyTrackingARView.swift in Sources */,
+				D3D16CB4288E16BA00B125B5 /* HasTap.swift in Sources */,
 				D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */,
+				D3D16CA7288E168B00B125B5 /* ARButton.swift in Sources */,
 				D3029D09288765F600233870 /* LIghtARView.swift in Sources */,
+				D3D16CA9288E168B00B125B5 /* FlipCard.swift in Sources */,
 				D3E5F43D285DF8EA00830798 /* RealityComposerView.swift in Sources */,
 				D32D032A28612D96009C38A2 /* LightView.swift in Sources */,
 				D395E09D2888B90D004E753F /* EnviromentTextureARView.swift in Sources */,
 				D395E09F2888BA51004E753F /* FaceTrackingARView.swift in Sources */,
+				D3D16CBF288E16D200B125B5 /* GameData.swift in Sources */,
 				D395E0A12888BAA4004E753F /* ObjectTrackingARView.swift in Sources */,
 				D3E4075828536CC800EABC6B /* ContentView.swift in Sources */,
 				D3582AF5288CD5D4007F4990 /* CollistionARView.swift in Sources */,
+				D3D16CA6288E168B00B125B5 /* CardComponent.swift in Sources */,
 				D3E5F429285DF7BA00830798 /* CardFlipView.swift in Sources */,
 				D3E5F46B285EAB2E00830798 /* MoveObjectARView.swift in Sources */,
+				D3D16CB3288E16BA00B125B5 /* HasCard.swift in Sources */,
 				D3E5F447285E8EEB00830798 /* CoachingARView.swift in Sources */,
 				D3E5F441285E004400830798 /* CollisionView.swift in Sources */,
+				D3D16CBA288E16C600B125B5 /* CardFlipARView+Coaching.swift in Sources */,
 				D3E5F418285DF57A00830798 /* PutObjectView.swift in Sources */,
 				D3E5F431285DF83200830798 /* PostProcessingView.swift in Sources */,
 				D3E5F439285DF8B000830798 /* ObjectTracking.swift in Sources */,
 				D3D266C6288B616900FB038B /* ImageTrackingObject.swift in Sources */,
+				D3D16CAE288E16A600B125B5 /* CardFlipARView.swift in Sources */,
 				D3582AEF288CBD0E007F4990 /* DetectedObject.swift in Sources */,
 				D3E4075628536CC800EABC6B /* AppDelegate.swift in Sources */,
+				D3D16CC0288E16D200B125B5 /* GameStatus.swift in Sources */,
 				D3E5F465285E9DB000830798 /* ManyMaterialARView.swift in Sources */,
 				D3E5F41C285DF5CA00830798 /* StackObjectView.swift in Sources */,
 				D3E5F433285DF84900830798 /* ImageTrackingView.swift in Sources */,
+				D3D16CA8288E168B00B125B5 /* FlipTable.swift in Sources */,
+				D3D16CBB288E16C600B125B5 /* CardFlipARView+Gesture.swift in Sources */,
 				D3E5F42B285DF7DE00830798 /* MoveObjectView.swift in Sources */,
+				D3D16CB9288E16C600B125B5 /* CardFlipARView+Extension.swift in Sources */,
 				D395E0A32888BB1A004E753F /* ImageTrackingARView.swift in Sources */,
 				D3582AFA288CD71C007F4990 /* PhysicsARView.swift in Sources */,
 				D3E5F443285E84C400830798 /* PutObjectARView.swift in Sources */,
