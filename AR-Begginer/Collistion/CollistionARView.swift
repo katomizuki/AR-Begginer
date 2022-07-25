@@ -24,11 +24,17 @@ class CollistionARView: ARView {
     
     private func setup() {
         session.delegate = self
+        environment.sceneUnderstanding.options = [.physics,
+                                                  .occlusion,
+                                                  .collision,
+                                                  .receivesLighting]
         
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapARView))
+        let tapGesture = UITapGestureRecognizer(target: self,
+                                                action: #selector(didTapARView))
         addGestureRecognizer(tapGesture)
         
-        let longPress = UILongPressGestureRecognizer(target: self, action: #selector(didLongPressARView))
+        let longPress = UILongPressGestureRecognizer(target: self,
+                                                     action: #selector(didLongPressARView))
         addGestureRecognizer(longPress)
         
         let config = ARWorldTrackingConfiguration()
@@ -49,6 +55,7 @@ class CollistionARView: ARView {
                                                nameExtension: "usdz",
                                                position: [-0.015, 0.4, 0.0],
                                                plane: planeAnchor!))
+        // Sphere
         virtualObjects.append(addVirtualObject(name: "Sphere",
                                                nameExtension: "usdz",
                                                position: [0.015, 0.4, 0.0],
