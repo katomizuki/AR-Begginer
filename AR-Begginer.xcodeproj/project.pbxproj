@@ -25,7 +25,6 @@
 		D3D16CA8288E168B00B125B5 /* FlipTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CA4288E168B00B125B5 /* FlipTable.swift */; };
 		D3D16CA9288E168B00B125B5 /* FlipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CA5288E168B00B125B5 /* FlipCard.swift */; };
 		D3D16CAE288E16A600B125B5 /* CardFlipARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CAC288E16A600B125B5 /* CardFlipARView.swift */; };
-		D3D16CAF288E16A600B125B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CAD288E16A600B125B5 /* ContentView.swift */; };
 		D3D16CB3288E16BA00B125B5 /* HasCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB1288E16BA00B125B5 /* HasCard.swift */; };
 		D3D16CB4288E16BA00B125B5 /* HasTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB2288E16BA00B125B5 /* HasTap.swift */; };
 		D3D16CB9288E16C600B125B5 /* CardFlipARView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D16CB6288E16C600B125B5 /* CardFlipARView+Extension.swift */; };
@@ -86,7 +85,6 @@
 		D3D16CA4288E168B00B125B5 /* FlipTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipTable.swift; sourceTree = "<group>"; };
 		D3D16CA5288E168B00B125B5 /* FlipCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCard.swift; sourceTree = "<group>"; };
 		D3D16CAC288E16A600B125B5 /* CardFlipARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFlipARView.swift; sourceTree = "<group>"; };
-		D3D16CAD288E16A600B125B5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3D16CB1288E16BA00B125B5 /* HasCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasCard.swift; sourceTree = "<group>"; };
 		D3D16CB2288E16BA00B125B5 /* HasTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasTap.swift; sourceTree = "<group>"; };
 		D3D16CB6288E16C600B125B5 /* CardFlipARView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardFlipARView+Extension.swift"; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				D3D16CAC288E16A600B125B5 /* CardFlipARView.swift */,
-				D3D16CAD288E16A600B125B5 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -482,7 +479,6 @@
 			files = (
 				D3E5F445285E8A2800830798 /* StackObjectARView.swift in Sources */,
 				D3E5F435285DF87100830798 /* CoachinView.swift in Sources */,
-				D3D16CAF288E16A600B125B5 /* ContentView.swift in Sources */,
 				D3D266CC288B8AE900FB038B /* BodyTrackingARView.swift in Sources */,
 				D3D16CB4288E16BA00B125B5 /* HasTap.swift in Sources */,
 				D3D266C8288B663800FB038B /* TrackingImages.swift in Sources */,
